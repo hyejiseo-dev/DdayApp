@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#ffffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginRight="10dp"
+    android:layout_weight="5"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/mainimg"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/meme"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.5"></ImageView>
+
+    <LinearLayout
+        android:layout_toRightOf="@+id/mainimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_weight="3.5">
+        <TextView
+            android:id="@+id/maintitle"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="0dp"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:text="Data" />
+        <TextView
+            android:id="@+id/mainmessage"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="0dp"
+            android:textSize="10dp"
+            android:text="context" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/maindday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="D-Day"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <!--        <TextView-->
+    <!--            android:id="@+id/cata"-->
+    <!--            android:layout_marginLeft="5dp"-->
+    <!--            android:layout_marginTop="5dp"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_alignParentLeft="true"-->
+    <!--            android:layout_alignParentStart="true"-->
+    <!--            android:layout_centerVertical="true"-->
+    <!--            android:paddingLeft="0dp"-->
+    <!--            android:textSize="10dp"-->
+    <!--            android:text="Num" />-->
+</LinearLayout>

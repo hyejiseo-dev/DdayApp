@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name"></string>
+    <string-array name="lists">
+        <item>일정</item>
+        <item>시험</item>
+        <item>운동</item>
+        <item>약속</item>
+        <item>사랑</item>
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
